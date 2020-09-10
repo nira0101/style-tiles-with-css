@@ -14,28 +14,28 @@ use the fonts in other ways in the font hierarchy etc. */
 
 /* change these */
 :root {
-  --bg-color: red;
-  --link-color: green;
-  --link-hover-color: blue;
-  --color-4: hotpink;
+  --bg-color: purple;
+  --link-color: black;
+  --link-hover-color: lightblue;
+  --color-4: white;
   --color-5: rebeccapurple;
 
-  --primary-font: "Open Sans", sans-serif;
-  --secondary-font: "Droid Serif", serif;
+  --primary-font:'Gayathri', sans-serif;;
+  --secondary-font: 'Comfortaa', cursive;;
   --main-text-color: #000;
 
   --white-space: 1rem;
 }
 
 button {
-  transition: all 3s;
+  transition: all 2s;
 }
 a {
   transition: all 3s;
 }
 button:hover {
-  background-color: var(--link-hover-color);
-  transform: scale(3) rotate(40deg);
+ ;
+  transform: scale(1.5,1.6);
 }
 
 button:active {
@@ -152,15 +152,15 @@ ul li:last-child {
 }
 
 .texture-swatch-1 {
-  background: url(../img/pw_maze_white.png) top left repeat;
+  background: url(../img/pexels-gdtography-911738.jpg) top left repeat;
 }
 
 .texture-swatch-2 {
-  background: url(../img/subtle_grunge.png) top left repeat;
+  background: url(../img/pexels-henry-&-co-2341290.jpg) top left repeat;
 }
 
 .texture-swatch-1 {
-  background: url(../img/pw_maze_white.png) top left repeat;
+  background: url(../img/pexels-sasha-martynov-1260727.jpg) top left repeat;
 }
 
 .texture-swatch-3 {
